@@ -26,31 +26,31 @@ class UI {
 					<h3>${producto.title}</h3>
 					<div class="rating">
 						<span>
-							<i class="bx bxs-star"></i>
+							<i class="bx bxs-heart"></i>
 						</span>
 						<span>
-							<i class="bx bxs-star"></i>
+							<i class="bx bxs-heart"></i>
 						</span>
 						<span>
-							<i class="bx bxs-star"></i>
+							<i class="bx bxs-heart"></i>
 						</span>
 						<span>
-							<i class="bx bxs-star"></i>
+							<i class="bx bxs-heart"></i>
 						</span>
 						<span>
-							<i class="bx bx-star"></i>
+							<i class="bx bxs-heart"></i>
 						</span>
 					</div>
 						<p class="price"><b>Precio: </b> $${producto.price}</p>
 						<p class="description">
-							<b>Descripcion: </b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae ad ex sint expedita perspiciatis odit eligendi! Et quia ex aperiam dolorum sunt omnis maiores. Repudiandae delectus iste exercitationem vel?</span>
+							<b>Descripcion: </b> <span>${producto.descripcion}</span>
 						</p>
 						<p class="description">
-							<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptates consequuntur in assumenda odit hic, aut cupiditate dolorem aspernatur! Quibusdam iusto magnam vero maxime quisquam voluptatibus minima aliquam molestias, iure ratione commodi, reiciendis quasi.</span>
+							<span>${producto.subdes}</span>
 						</p>
 						<div class="bottom">
 							<div class="btn__group">
-								<button class="btn addToCart" data-id=${producto.id}>Añadir carrito</button>
+								<button class="btn addToCart " data-id=${producto.id}>Añadir carrito</button>
 							</div>
 						</div>
 				</div>
@@ -72,19 +72,19 @@ class UI {
             <h1>${producto.title}</h1>
             <div class="rating">
               <span>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-heart"></i>
               </span>
               <span>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-heart"></i>
               </span>
               <span>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-heart"></i>
               </span>
               <span>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-heart"></i>
               </span>
               <span>
-                <i class="bx bx-star"></i>
+                <i class="bx bxs-heart"></i>
               </span>
             </div>
             <div class="price">$${producto.price}</div>
@@ -142,7 +142,7 @@ class UI {
 			tempTotal += item.price * item.cantidad;
 			itemTotal += item.cantidad;
 		});
-		carritoTotal.innerText = parseFloat(tempTotal.toFixed(2));
+		carritoTotal.innerText = tempTotal.toFixed(3);
 		itemTotales.innerText = itemTotal
 	}
 
@@ -246,6 +246,7 @@ class UI {
 		if(button){
 			button.disabled = false;
 			button.innerText = "Añadir carrito"
+			
 		}
 	}
 	singleButton(id){
@@ -324,3 +325,74 @@ document.addEventListener("DOMContentLoaded", async () =>{
 		ui.cartLogic();
 	}
 })
+
+//Funcion que dibuja los botones de accion de "Finalizar Compra" y "Vaciar Carrito"
+//Tambien les otorga accion que "vacia el carrito" o "finaliza la compra"
+//En caso de finalizar compra se redirige a la pagina finalizarCompra
+const accionCarrito = () => {   
+    $("#btn-acciones-carrito").html(`
+    <tr>
+            <td></td>        
+            <td>
+                <button class="btn btn-success btn-sm" id="finalizar-compra">
+                    Finalizar Compra
+                </button>
+            </td>
+            <td></td>
+            <td>                
+                <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                    Vaciar Carrito
+                </button>
+            </td>
+        </tr>`)
+
+    $("#vaciar-carrito").on('click', () => {
+        Swal.fire({
+            title: "Esta seguro que desea borrar todos los productos del carrito?",
+            icon: "warning",
+            backdrop:false,            
+            showCancelButton: true,
+            confirmButtonText: "Si, estoy seguro",
+            cancelButtonText: "No, no quiero borrarlos",
+            allowOutsideClick: false
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    backdrop:false,
+                    title: "Productos eliminados",
+                    icon: "success",
+                    text: "Los productos de su carrito han sido eliminados",
+                    showConfirmButton: true,
+                    allowOutsideClick: false
+                })
+                sessionStorage.clear()
+                ProductosCarrito()
+            }
+        })
+    })
+    $('#finalizar-compra').on('click', (e) => {
+        Swal.fire({
+            backdrop:false,            
+            title: "Esta seguro que desea finalizar su compra?",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Si, estoy seguro",
+            cancelButtonText: "No, no quiero seguir comprando",
+            allowOutsideClick: false
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    backdrop:false,            
+                    title: "Finalizando Compra",
+                    icon: "success",
+                    text: "Esta siendo redirigido a un sitio más seguro para finalizar su compra",
+                    showConfirmButton: false,
+                    allowOutsideClick: false
+                })
+                setTimeout(() => {
+                    $(location).attr('href', './html/finalizarCompra.html')
+                }, 4000)
+            }
+        })
+    })
+}

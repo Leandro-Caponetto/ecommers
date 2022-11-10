@@ -2,175 +2,223 @@
     "status": "success",
     "items": [{
             "id": 1,
-            "title": "Roles Datejust",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2846-alz5vjoi11mxlc54imf27mlj-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "title": "Remera Kendall",
+            "price": "20.000",
+            "image": "https://markova.com/uploads/picture/image/48575/Y830NE_1.jpg",
+            "descripcion": "Remera en Viscosa elastizada de calce relajado. Posee estampa central, escote redondo amplio, hombro relajado y terminación de vivo en mangas.",
+            "subdes": " Combinala con un pantalón de vestir para un look más formal o con jeans para un look más descontracturado.",
+            "category": "tops"
         },
         {
             "id": 2,
-            "title": "OMEGA Speedmaster",
-            "price": 104,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305",
-            "category": "omega"
+            "title": "Blazer Fendi",
+            "price": "50.000",
+            "image": "https://markova.com/uploads/picture/image/47793/Y308ND_1.jpg",
+            "descripcion": "Blazer Fedra y armá un total look de absoluta tendencia",
+            "subdes": "Combinalo con el pantalón de sastrería premium 100% Tencel, de tiro alto y pierna ancha. Posee cinto forrado con hebilla. Combinalo con el blazer Fedra y armá un total look de absoluta tendencia.",
+            "category": "blazers"
         },
         {
             "id": 3,
-            "title": "AUDEMARS PIGUET",
-            "price": 75,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1177-wugpfdlkkz5ie2od4y1w8rlm-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Vestido Stella",
+            "price": "23.000",
+            "image": "https://markova.com/uploads/picture/image/47890/X451NE_1.jpg",
+            "descripcion": "Vestido de sastrería bi-stretch. De silueta tubo, con volados al bies en sisas y ruedo y escote a la base, posee cierre invisible en espalda y ganchos invisibles para facilitar su acceso. Su interior está forrado en punto al tono para mayor confort. ",
+            "subdes": "Sus cut-outs en laterales y espalda le dan un toque sexy y moderno ideal para un evento o salida.",
+            "category": "vestidos"
         },
         {
             "id": 4,
-            "title": "HUBLOT Big Bang",
-            "price": 99,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1065-ae2seivfjwbgqxgobd7rimxu-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Pantalon Kate",
+            "price": "18.000",
+            "image": "https://markova.com/uploads/picture/image/48196/Y702CD_1.jpg",
+            "descripcion": "Pantalón de sastrería rayón premium, de tiro alto y pierna slim que otorga un calce elegante y confortable. ",
+            "subdes": "Posee bolsillos ojal en diagonal. Combinalo con el blazer Topacio y armá un total look de absoluta tendencia.",
+            "category": "pantalones"
         },
         {
             "id": 5,
-            "title": "ROLEX Day-Date",
-            "price": 105,
-            "image": "https://cdn4.chrono24.com/images/topmodels/48-coj40rpfx8fwxs9h0nl1l5z5-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Remera Gigi",
+            "price": "12.000",
+            "image": "https://markova.com/uploads/picture/image/48761/Y814CD_1.jpg",
+            "descripcion": "Remera en morley de calce anatómico. Posee mangas por arriba del codo, puff en hombros y escote cuadrado con detalle de avío metálico personalizado.",
+            "subdes": " Usala en looks de oficina o para una salida de noche.",
+            "category": "remeras"
 
         },
         {
             "id": 6,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 85,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1023-knl4kmo66jmse324vzq1rit9-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Sandalia Bella",
+            "price": "30.000",
+            "image": "https://www.paruolo.com.ar/media/catalog/product/3/9/39520_b_0_1.jpg?quality=80&amp;bg-color=255,255,255&amp;fit=bounds&amp;height=&amp;width=&amp;canvas=:",
+            "descripcion": "Sandalia de cuero con tira ojota y cadena. Forrería de fibras animal friendly. Taco inyectado negro. Altura de taco 7,5 cm.",
+            "subdes": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar material y color original o dañar los apliques.",
+            "category": "zapatos"
 
         },
         {
             "id": 7,
-            "title": "Roles Datejust",
-            "price": 60,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2889-i234z41cn7v0n4vanfhte4w4-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "title": "Remera Kiss",
+            "price": "9.000",
+            "image": "https://markova.com/uploads/picture/image/47567/Y703CD_2.jpg",
+            "descripcion": "Remera en Algodón elastizado de calce anatómico. Posee escote en V y mangas cortas. Su print central con foil le da un toque extra a todos tus looks.",
+            "subdes": "Una remera para salir de tarde",
+            "category": "remeras"
         },
         {
             "id": 8,
-            "title": "OMEGA Speedmaster",
-            "price": 35,
-            "image": "https://cdn4.chrono24.com/images/topmodels/277-q51jko3qp053cwsfydfnmp8r-Original.png?auto=compress&amp;h=305",
-            "category": "omega"
+            "title": "Blazer Mika",
+            "price": "42.000",
+            "image": "https://markova.com/uploads/picture/image/47789/Y301RJ_2.jpg",
+            "descripcion": "Blazer de bengalina jacquard ultra elastizada. De silueta entallada y mangas 3/4, su interior está forrado en satén elastizado generando extra confort. ",
+            "subdes": "Posee cierres metálicos en bolsillos laterales y terminaciones de ruedos redondeados. Combinalo con el Cigarette Zafiro y completá el total look.",
+            "category": "blazers"
         },
         {
             "id": 9,
-            "title": "AUDEMARS PIGUET",
-            "price": 799,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2784-sol59z6xc26pvisg1s4yyhz7-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Vestido Fedra",
+            "price": "25.000",
+            "image": "https://markova.com/uploads/picture/image/48811/Y419CD_1.jpg",
+            "descripcion": "Vestido de sastrería bi-stretch. De silueta tubo, con volados al bies en sisas y ruedo y escote a la base, posee cierre invisible en espalda y ganchos invisibles para facilitar su acceso. Su interior está forrado en punto al tono para mayor confort. ",
+            "subdes": "Sus cut-outs en laterales y espalda le dan un toque sexy y moderno ideal para un evento o salida.",
+            "category": "vestidos"
         },
         {
             "id": 10,
-            "title": "HUBLOT Big Bang",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1060-60mnke18crk8dtva1dday8aq-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Pantalon Sofia",
+            "price": "28.000",
+            "image": "https://markova.com/uploads/picture/image/48825/Y120NE_1.jpg",
+            "descripcion": "Pantalón de cuero vegano, de tiro alto y pierna slim. Posee cinto forrado con hebilla y bolsillos laterales. ",
+            "subdes": "Un pantalón moderno, versátil y de absoluta tendencia que elevará todos tus looks.",
+            "category": "pantalones"
         },
         {
             "id": 11,
-            "title": "ROLEX Day-Date",
-            "price": 650,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2789-kz9cslhfzhl5hluyhyik13vh-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Remera Cami",
+            "price": "14.000",
+            "image": "https://markova.com/uploads/picture/image/47952/X822NE_2.jpg",
+            "descripcion": "Remera en jersey combinada en cuero vegano, con escote redondo a la base y mangas cortas tipo Gigot con detalle de nudo en puño. ",
+            "subdes": "Ideal para darle un toque moderno y canchero a tus looks.",
+            "category": "remeras"
         },
         {
             "id": 12,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 65,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1024-kun413lxk7kb6xba9sow5f81-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Sandalia Polly",
+            "price": "32.000",
+            "image": "https://www.paruolo.com.ar/media/catalog/product/3/9/39516_b_5.jpg?quality=80&amp;bg-color=255,255,255&amp;fit=bounds&amp;height=&amp;width=&amp;canvas=:",
+            "descripcion": "Plataforma de cuero con doble tira en capellada y pulsera. Forrería de Fibras Animal-Friendly. Plataforma con plantilla cuadrada y taco ancho forrados a tono de la capellada. Altura de plataforma 4,5 cm, altura de taco 10,5 cm.",
+            "subdes": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar material y color original o dañar los apliques.",
+            "category": "zapatos"
         },
         {
             "id": 13,
-            "title": "Roles Datejust",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2827-syc8dandfne5fr49dsnu9oai-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "title": "Remera Ann",
+            "price": "12.500",
+            "image": "https://markova.com/uploads/picture/image/48224/Y810FC_1.jpg",
+            "descripcion": "Remera género flamé fantasía de calce al cuerpo. Posee escote U profundo y volados en hombros. ",
+            "subdes": "Ítem súper femenino para combinar tanto para la oficina como para el fin de semana.",
+            "category": "remeras"
         },
         {
             "id": 14,
-            "title": "OMEGA Speedmaster",
-            "price": 104,
-            "image": "https://cdn4.chrono24.com/images/topmodels/71-js248idvdav3retnmx2uc6wx-Original.png?auto=compress&amp;h=305",
-            "category": "omega"
+            "title": "Blazer Audrey",
+            "price": "40.000",
+            "image": "https://markova.com/uploads/picture/image/48263/Y334NE_3.jpg",
+            "descripcion": "Chaqueta de cuero vegano premium de silueta entallada y manga larga con puff. Posee bolsillos con tapas, cierre central y broches metálicos personalizados MKV. Interior forrado con tafeta diagonal. Una chaqueta ideal para componer looks modernos y urbanos tanto para el día como para la noche.",
+            "subdes": "Una chaqueta ideal para componer looks modernos y urbanos tanto para el día como para la noche.",
+            "category": "blazers"
         },
         {
             "id": 15,
-            "title": "AUDEMARS PIGUET",
-            "price": 75,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1176-hs3tqa0p4c96tsxn2cn2uo6w-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Vestido Reine",
+            "price": "21.500",
+            "image": "https://www.vitamina.com.ar/media/catalog/product/s/e/seg._vitamina_19_de_agosto1303.jpg?quality=90&amp;bg-color=255,255,255&amp;fit=bounds&amp;height=&amp;width=&amp;canvas=:",
+            "descripcion": "Vestido de satén elastizado. A su silueta entallada en cintura para resaltar el busto y disimular la cadera, se le suma un tul especial para generar volumen en la falda y aporta un toque único a este vestido de fiesta.",
+            "subdes": " Posee bolsillos en laterales, cierre invisible en espalda para facilitar acceso. Su interior está forrado en tafeta.",
+            "category": "vestidos"
         },
         {
             "id": 16,
-            "title": "HUBLOT Big Bang",
-            "price": 99,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1058-1jormktv8artxf3enlapuh13-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Pantalon Riri",
+            "price": "24.000",
+            "image": "https://markova.com/uploads/picture/image/43739/X123AT_1.jpg",
+            "descripcion": "Pantalón de sastrería rayón, de tiro alto y pierna slim. Posee cinto forrado con hebilla y bolsillos laterales. ",
+            "subdes": "Un pantalón fresco y liviano, ideal tanto para la oficina como para una salida. Combinalo con una remera Badra y armá el total look.",
+            "category": "pantalones"
         },
         {
             "id": 17,
-            "title": "ROLEX Day-Date",
-            "price": 105,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2884-5ef4thk0sttcydmk5692nply-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Remera Sibyl",
+            "price": "16.000",
+            "image": "https://markova.com/uploads/picture/image/48280/Y821NE_1.jpg",
+            "descripcion": "Top en encaje elastizado combinado con microtul en espalda y escote delantero de calce anatómico. Posee mangas que tapan los hombros, recortes que acentúan la figura y cuello a la base con escote tipo V con transparencia. ",
+            "subdes": "Terminaciones con puntilla a tono. Un ítem perfecto para elevar todo tipo de looks.",
+            "category": "tops"
 
         },
         {
             "id": 18,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 85,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1024-kun413lxk7kb6xba9sow5f81-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Sandalia Steph",
+            "price": "36.000",
+            "image": "https://www.paruolo.com.ar/media/catalog/product/3/7/37792_b_1.jpg?quality=80&amp;bg-color=255,255,255&amp;fit=bounds&amp;height=&amp;width=&amp;canvas=:",
+            "descripcion": "Sandalia de cuero con tiras cruzadas y pulsera. Taco cuadrado forrado. Altura de taco 6 cm.",
+            "subdes": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar material y color original o dañar los apliques.",
+            "category": "zapatos"
 
         },
         {
             "id": 19,
-            "title": "Roles Datejust",
-            "price": 60,
-            "image": "https://cdn4.chrono24.com/images/topmodels/53-qr7rjp3uwl4jco6w9zezewr6-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "title": "Remera Rubi",
+            "price": "8.200",
+            "image": "https://markova.com/uploads/picture/image/48041/Y800RS_2.jpg",
+            "descripcion": "Top en morley Viscosa de calce anatómico, escote bajo con detalle de frunce en centro de busto y breteles finos. ",
+            "subdes": "Comodín ideal para usar sólo o con tu sastrería de verano.",
+            "category": "tops"
         },
         {
             "id": 20,
-            "title": "OMEGA Speedmaster",
-            "price": 35,
-            "image": "https://cdn4.chrono24.com/images/topmodels/242-uk37he1f5vgdtk9unr5570ct-Original.png?auto=compress&amp;h=3055",
-            "category": "omega"
+            "title": "Blazer Chantall",
+            "price": "48.000",
+            "image": "https://markova.com/uploads/picture/image/49123/Y303CD_1.jpg",
+            "descripcion": "Blazer abierto de crepe elastizado. De silueta entallada, solapa tipo smoking y mangas 3/4 con puff en hombros. Su interior está forrado en satén elastizado generando extra confort. ",
+            "subdes": "Un imprescindible tanto para la oficina como para una salida. Combinalo con el Pantalón Galena y completá el total look.",
+            "category": "blazers"
         },
         {
             "id": 21,
-            "title": "AUDEMARS PIGUET",
-            "price": 99,
-            "image": "https://cdn4.chrono24.com/images/topmodels/118-6lbsu9lmivq8w0y0nqrk5j45-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Vestido Noa",
+            "price": "21.800",
+            "image": "https://www.vitamina.com.ar/media/catalog/product/s/e/seg._vitamina_19_de_agosto1297.jpg?quality=90&amp;bg-color=255,255,255&amp;fit=bounds&amp;height=&amp;width=&amp;canvas=:",
+            "descripcion": "Vestido de satén elastizado. A su silueta entallada en cintura para resaltar el busto y disimular la cadera, se le suma un tul especial para generar volumen en la falda y aporta un toque único a este vestido de fiesta. ",
+            "subdes": "Posee bolsillos en laterales, cierre invisible en espalda para facilitar acceso. Su interior está forrado en tafeta.",
+            "category": "vestidos"
         },
         {
             "id": 22,
-            "title": "HUBLOT Big Bang",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1060-60mnke18crk8dtva1dday8aq-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Pantalon Evelyn",
+            "price": "22.500",
+            "image": "https://markova.com/uploads/picture/image/48835/Y120CD_3.jpg",
+            "descripcion": "Pantalón de cuero vegano, de tiro alto y pierna slim. Posee cinto forrado con hebilla y bolsillos laterales. Un pantalón moderno, versátil y de absoluta tendencia que elevará todos tus looks.",
+            "subdes": "Ideal para una tarde de te",
+            "category": "pantalones"
         },
         {
             "id": 23,
-            "title": "ROLEX Day-Date",
-            "price": 65,
-            "image": "https://cdn4.chrono24.com/images/topmodels/954-oel0a5omxgsfsc717gx0p1na-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Remera Kitty",
+            "price": "11.000",
+            "image": "https://markova.com/uploads/picture/image/48238/Y826NE_2.jpg",
+            "descripcion": "Top tipo musculosa en jersey microfibra de calce súper anatómico. Posee escote en V con vivo a la base y avío metálico personalizado. ",
+            "subdes": "Corte de sisas tipo americana. Ítem perfecto para destacarte con un look de noche.",
+            "category": "tops"
         },
         {
             "id": 24,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 65,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2848-rrxe8hk918f7plrrfgzbxt65-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Sandalia Kourt",
+            "price": "34.000",
+            "image": "https://www.paruolo.com.ar/media/catalog/product/3/8/38100_b_1.jpg?quality=80&amp;bg-color=255,255,255&amp;fit=bounds&amp;height=&amp;width=&amp;canvas=:",
+            "descripcion": "Sandalia de tira y pulsera en cuero plateado. Forrería de fibras animal-friendly. Taco forrado en el mismo material de la capellada. Altura de taco 6 cm.",
+            "subdes": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar material y color original o dañar los apliques.",
+            "category": "zapatos"
         }
     ]
 }
